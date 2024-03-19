@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="./css/null.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <aside class="aside">
+            <div>
+                <div class="header__aside header-height">
+                    <div class="header__aside-box">
+                        <div class="header__aside-logo">
+                            T
+                        </div>
+                        <div>
+                            <h1 class="_title">Time Schedule</h1>
+                            <h2 class="_subtitle">Daily Task</h2>
+                        </div>
+                    </div>
+                    <button id="teamScheduleBtn"><img src="./img/icon/arrow-gray.png" alt="Icon arrow-gray"></button>
+                    <div class="theme-box">
+                        <button class="theme-btn" id="day"><span><img src="./img/icon/day.png" alt=""></span></button>
+                        <button class="theme-btn" id="night"><span><img src="./img/icon/night.png"
+                                    alt=""></span></button>
+                    </div>
+                </div>
+                <ul id="teamScheduleList">
+                    <li class="header__aside">
+                        <div class="header__aside-box">
+                            <div class="header__aside-logo">
+                                T
+                            </div>
+                            <div>
+                                <h1 class="_title">Time Schedule</h1>
+                                <h2 class="_subtitle">Daily Task</h2>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="header__aside">
+                        <div class="header__aside-box">
+                            <div class="header__aside-logo">
+                                T
+                            </div>
+                            <div>
+                                <h1 class="_title">Time Schedule</h1>
+                                <h2 class="_subtitle">Daily Task</h2>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="header__aside">
+                        <div class="header__aside-box">
+                            <div class="header__aside-logo">
+                                T
+                            </div>
+                            <div>
+                                <h1 class="_title">Time Schedule</h1>
+                                <h2 class="_subtitle">Daily Task</h2>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="aside__wrap">
+                    <div class="aside__box pt8">
+                        <ul class="tabs">
+                            <li class="tabs__item p8" data-click>
+                                <div><img class="m8" src="./img/icon/search.svg" alt="Quick Find"><input type="search"
+                                        name="search" id="searchUser" placeholder="Quick Find"></div>
+                                <div class="tabs__box"><span class="_icon"><img src="./img/icon/comand.png"
+                                            alt=""></span><span class="_icon">F</span></div>
+                            </li>
+                            <li class="tabs__item p8" data-click>
+                                <div><img class="m8" src="./img/icon/lightning.svg" alt="Activity">Activity</div><span
+                                    class="tabs__red">2</span>
+                            </li>
+                            <li class="tabs__item p8" data-click>
+                                <div><img class="m8" src="./img/icon/time.svg" alt="All Updates">All
+                                    Updates</div><span class="tabs__blue">4</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="aside__box workspace">
+                        <div class="workspace__box">
+                            <h2>Work Space</h2><button><img src="./img/icon/plus.svg" alt=""></button>
+                        </div>
+
+                        <div class="workspace__accordion" data-accordion="item1">
+                            <button class="workspace__accordion-btn">
+                                <img class="m8" data-accordion-btn="item1" src="./img/icon/accoraion-arrow.png"
+                                    alt="icon accordion-arrow"><img class="m8" src="./img/icon/notepad.svg"
+                                    alt="icon notepad"><span>Mission Planning</span>
+                            </button>
+                            <ul data-accordion="item1-content">
+                                <li class="p8" data-click><a href="#!">Task Summary</a></li>
+                                <li class="p8" data-click><a href="#!">Project Progress</a> </li>
+                                <li class="p8" data-click><a href="#!">Requirement Submission</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="workspace__accordion" data-accordion="item2">
+                            <button class="workspace__accordion-btn">
+                                <img class="m8" data-accordion-btn="item2" src="./img/icon/accoraion-arrow.png"
+                                    alt="icon accordion-arrow"><img class="m8" src="./img/icon/display.svg"
+                                    alt="icon display"><span>Daily Task</span>
+                            </button>
+                            <ul data-accordion="item2-content">
+                                <li class="p8" data-click><a href="#!">Personal Space</a></li>
+                                <li class="p8" data-click><a href="#!">Schedule</a></li>
+                                <li class="p8" data-click><a href="#!">Hobbies</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="workspace__accordion" data-accordion="item3">
+                            <button class="workspace__accordion-btn">
+                                <img class="m8" data-accordion-btn="item3" src="./img/icon/accoraion-arrow.png"
+                                    alt="icon accordion-arrow"><img class="m8" src="./img/icon/palitra.svg"
+                                    alt="icon palitra"><span>Design Inspirations</span>
+                            </button>
+                            <ul data-accordion="item3-content">
+                                <li class="p8" data-click><a href="#!">Personal Space</a></li>
+                                <li class="p8" data-click><a href="#!">Schedule</a></li>
+                                <li class="p8" data-click><a href="#!">Hobbies</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="workspace__accordion" data-accordion="item4">
+                            <button class="workspace__accordion-btn">
+                                <img class="m8" data-accordion-btn="item4" src="./img/icon/accoraion-arrow.png"
+                                    alt="icon accordion-arrow"><img class="m8" src="./img/icon/products.svg"
+                                    alt="icon products"><span>Products</span>
+                            </button>
+                            <ul data-accordion="item4-content">
+                                <li class="p8" data-click><a href="#!">Personal Space</a></li>
+                                <li class="p8" data-click><a href="#!">Schedule</a></li>
+                                <li class="p8" data-click><a href="#!">Hobbies</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="workspace__accordion" data-accordion="item5">
+                            <button class="workspace__accordion-btn">
+                                <img class="m8" data-accordion-btn="item5" src="./img/icon/accoraion-arrow.png"
+                                    alt="icon accordion-arrow"><img class="m8" src="./img/icon/tasks.svg"
+                                    alt="icon tasks"><span>Side Tasks</span>
+                            </button>
+                            <ul data-accordion="item5-content">
+                                <li class="p8" data-click><a href="#!">Personal Space</a></li>
+                                <li class="p8" data-click><a href="#!">Schedule</a></li>
+                                <li class="p8" data-click><a href="#!">Hobbies</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="aside__box header__aside profile">
+                <ul class="profile__panel">
+                    <li data-click>Lorem, ipsum.</li>
+                    <li data-click>Lorem, ipsum.</li>
+                </ul>
+                <div class="header__aside-box">
+                    <div class="profile__img m8"><img src="./img/user.png" alt=""></div>
+                    <div>
+                        <h3 class="_title">Amir - Zhen</h3>
+                        <h4 class="_subtitle">663442@Pixso.com</h4>
+                    </div>
+                </div>
+                <button id="settingsbtn"><img src="./img/icon/settings.png" alt="Icon arrow-gray"></button>
+            </div>
+
+        </aside>
+        <div class="wrapper__board">
+
+            <header class="header">
+                <div class="header__container">
+                    <div class="header__leftblock">
+                        <h2 class="_title">
+                            Project Progress
+                        </h2>
+                        <nav class="breadcrumbs">
+                            <ul class="breadcrumbs__list">
+                                <li class="breadcrumbs__list-item">Products</li>
+                                /
+                                <li class="breadcrumbs__list-item">Project Progress</li>
+                                /
+                                <li class="breadcrumbs__list-item _active">Board</li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="header__rightblock">
+                        <ul class="users">
+                            <li class="users__item"><img src="./img/users/users1.png" alt=""></li>
+                            <li class="users__item"><img src="./img/users/users2.png" alt=""></li>
+                            <li class="users__item"><img src="./img/users/users3.png" alt=""></li>
+                            <li class="users__item"><img src="./img/users/users4.png" alt=""></li>
+                        </ul>
+                        <div class="plus">
+                            <img src="./img/users/plus.png" alt="">
+                        </div>
+                        <div class="burger-menu">
+                            <img src="./img/users/menu-btn.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <ul class="board__tabs">
+                    <li data-click class="board__tabs-item">Overview</li>
+                    <li data-click class="board__tabs-item">Board</li>
+                    <li data-click class="board__tabs-item">Timeline</li>
+                    <li data-click class="board__tabs-item">Activites</li>
+                    <li data-click class="board__tabs-item">Files</li>
+                </ul>
+            </header>
+
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

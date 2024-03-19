@@ -1,0 +1,9 @@
+.wrapper {
+    display: flex;
+	min-height: 100vh;
+    &__board {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
