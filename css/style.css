@@ -407,6 +407,12 @@
           flex-direction: column;
   gap: 5px;
 }
+.profile__panel li {
+  padding: 8px;
+}
+.profile__panel li._active {
+  color: rgb(72, 107, 242);
+}
 
 .theme-box {
   display: -webkit-box;
