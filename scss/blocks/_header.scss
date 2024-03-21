@@ -56,6 +56,7 @@
         gap: 32px;
 
         &-item {
+            color: rgb(141, 141, 141);
             font-weight: 500;
             line-height: 20px;
             &::after {
@@ -69,6 +70,7 @@
         }
         
         &-item._active[data-click] {
+            color: rgb(12, 12, 13);
             background: transparent;
 
             &:after {

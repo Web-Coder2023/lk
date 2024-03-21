@@ -140,6 +140,7 @@
   gap: 32px;
 }
 .board__tabs-item {
+  color: rgb(141, 141, 141);
   font-weight: 500;
   line-height: 20px;
 }
@@ -152,6 +153,7 @@
   opacity: 0;
 }
 .board__tabs-item._active[data-click] {
+  color: rgb(12, 12, 13);
   background: transparent;
 }
 .board__tabs-item._active[data-click]:after {
